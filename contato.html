@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisionX</title>
+    <link rel="stylesheet" type="text/css" href="./styles/contato.css">
+    <link rel="icon" href="./assets/icon-logo.ico" type="image/x-icon">
+<style>
+   body {
+    background-image: url('assets/background-logo.png');
+    box-sizing: border-box;
+    background-position: 50% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+</style>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="grow">
+            <a href="index.html"><img class="cabecalho__imagem" src="./assets/imagem-logo-branca.png" alt="Imagem Logo" width="129.60" height="29.025"></a>
+        </div>
+        <div class="cabecalho__div">
+            <a class="cabecalho__links" href="index.html">Home</a>
+            <a class="cabecalho__links" href="sobre.html">Quem somos</a>
+            <a class="cabecalho__links" href="contato.html">Contato</a>
+        </div>
+        <a class="cabecalho__links__1" href="https://api.whatsapp.com/send?phone=5541985210355&text=Ol%C3%A1!%20Fique%20%C3%A0%20vontade%20para%20tirar%20suas%20d%C3%BAvidas%20sobre%20nosso%20aplicativo%20VisionX.%20Estamos%20prontos%20para%20ajudar%20voc%C3%AA!"><img class="imagem__links" src="./assets/icons8-whatsapp-50.png" alt="Logo WhatsApp" height="30px" width="30px">CONTATE-NOS</a>
+    </header>
+    <main class="conteudo">
+        <form class="formulario">
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            <div class="campo">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="campo">
+                <label for="telefone">Telefone</label>
+                <input type="number" name="telefone" id="telefone" required>
+            </div>
+            <div class="campo">
+                <label>Qual é a especialidade de móveis da sua empresa?</label>
+                <label>
+                    <input type="radio" name="moveis" value="comercial">Móveis para Ambientes Comerciais
+                </label>
+                <label>
+                    <input type="radio" name="moveis" value="residencial">Móveis para Residências
+                </label>
+                <label>
+                    <input type="radio" name="moveis" value="ambos">Ambos
+                </label>
+            </div>
+            <div class="campo">
+                <br>
+                <label>Conte um pouco de sua empresa:</label>
+                <textarea rows="6" style="width: 26" id="experiência" name="experiência"></textarea>
+            </div>
+            <button class="botao" type="submit">Concluído</button>
+        </form>
+    </main>
+    <footer class="rodape">
+        <div class="grow">
+            <a href="index.html"><img class="rodape__imagem" src="./assets/imagem-logo-branca.png" alt="Imagem Logo" width="129.60" height="29.025"></a>
+        </div>
+        <p class="rodape__paragrafo">© 2023 All Rights Reserved</p>
+    </footer>
+</body>
+</html>
